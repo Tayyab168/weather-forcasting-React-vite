@@ -1,0 +1,21 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+background-color: black;
+color: white;
+font-family: "Jost", sans-serif;
+}
+@keyframes moveLeftRight {
+    0%, 100% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(30px);
+    }
+  }
+  
+  .location-icon {
+    animation: moveLeftRight 4s infinite;
+  }
+  
